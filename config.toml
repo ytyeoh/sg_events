@@ -1,0 +1,27 @@
+baseurl         = "https://ytyeoh.github.io/sg_events"
+theme           = "hugo-webslides"
+languageCode    = "en-us"
+title           = "A Hugo theme for creating Webslides.js presentations"
+
+[params]
+  author = "RCJacH"
+  homepage = "RCJacH.github.io"
+
+[params.webslides]
+  banner = false
+  slideshow = true
+  vertical = true
+  autoslide = false
+  changeOnClick = false
+  disableLoop = false
+  minWheelDelta = 40
+  disableNavigateOnScroll = false
+  scrollWait = 450
+  slideOffset = 50
+  hideIndex = false
+
+[markup]
+  defaultMarkdownHandler = "blackfriday"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+    unsafe = true
